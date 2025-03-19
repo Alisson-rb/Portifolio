@@ -11,7 +11,7 @@
    }
    header {
        padding: 32px;
-       border-bottom: 1px solid #c7c7c7; /*  adiciona uma cor a parte de  baixo da borda da imagem*/
+       border-bottom: 1px solid #98D2C0; /*  adiciona uma cor a parte de  baixo da borda da imagem*/
        background-color: rgba(0, 0,0,0.1);
    }
    header div {
@@ -28,7 +28,7 @@
 header div a:hover {  /* seleção do modo quando o mouse passar por cima "hover"*/
    color: #205781; /* mudar para cor verde*/
    transition: color 700ms; /* e fazer uma transição de cor que dura 700ms*/
-}
+}  
 
 #box {
    text-align: center; /* Alinhamento no meio do body */
