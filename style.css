@@ -26,7 +26,7 @@
          font-family: 'Nunito', sans-serif; /* a fonte escolhida pro menu */
    }
 header div a:hover {  /* seleção do modo quando o mouse passar por cima "hover"*/
-   color: #205781; /* mudar para cor verde*/
+   color: #76ABAE; /* mudar para cor verde*/
    transition: color 700ms; /* e fazer uma transição de cor que dura 700ms*/
 }  
 
