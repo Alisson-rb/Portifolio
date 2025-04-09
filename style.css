@@ -15,7 +15,7 @@
        background-color: rgba(0, 0,0,0.1);
    }
    header div {
-       text-align: center; /* Alinhamento no meio do header */
+       text-align: center; /* alinhamento no meio do header */
    }
    header div a {
          color: #F6F8D5; /* a cor do texto */
@@ -26,7 +26,7 @@
          font-family: 'Nunito', sans-serif; /* a fonte escolhida pro menu */
    }
 header div a:hover {  /* seleção do modo quando o mouse passar por cima "hover"*/
-   color: #76ABAE; /* mudar para cor verde*/
+   color: #76ABAE; /* mudar para cor azul*/
    transition: color 700ms; /* e fazer uma transição de cor que dura 700ms*/
 }  
 
@@ -42,6 +42,11 @@ header div a:hover {  /* seleção do modo quando o mouse passar por cima "hover
    border: 3px  solid #98D2C0 ; /*  adiciona uma cor a borda da imagem*/
    margin-bottom: 32px; /*  distancia da margem  inferior dos outros elementos*/
    
+}
+
+#box img:hover {
+   border-radius: 20%;
+   transition: 0.75s;
 }
 
 #box h1 {
