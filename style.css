@@ -41,7 +41,7 @@ header div a:hover {  /* seleção do modo quando o mouse passar por cima "hover
    border-radius: 50%; /*  adiciona uma borda redonda a  imagem/ */
    border: 3px  solid #98D2C0 ; /*  adiciona uma cor a borda da imagem*/
    margin-bottom: 32px; /*  distancia da margem  inferior dos outros elementos*/
-   
+   box-shadow: 1px 1px 15px rgba(255, 255, 255, 0.5);
 }
 
 #box img:hover {
