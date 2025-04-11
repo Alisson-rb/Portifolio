@@ -30,6 +30,12 @@ header div a:hover {  /* seleção do modo quando o mouse passar por cima "hover
    transition: color 700ms; /* e fazer uma transição de cor que dura 700ms*/
 }  
 
+.links img {
+   margin-right: 10px;
+   width: 22px;
+   height: 22px;
+}
+
 #box {
    text-align: center; /* Alinhamento no meio do body */
    padding: 32px;  /* distancia dos   outros elementos  */
