@@ -98,7 +98,7 @@ header div a:hover {
    box-shadow: 1px 1px 15px rgba(255, 255, 255, 0.5);
 }
 
-#box img:hover {
+#box img:active {
    border-radius: 20%;
    transition: 0.75s;
 }
