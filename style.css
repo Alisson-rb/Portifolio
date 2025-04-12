@@ -42,11 +42,31 @@ header div a:hover {  /* seleção do modo quando o mouse passar por cima "hover
    font-family: 'Nunito', sans-serif; /* a fonte escolhida pro menu */
 }
 
+#box a {
+   border-top-right-radius: 10px;
+   border-top-left-radius: 10px;
+   border-bottom-left-radius: 10px;
+   border-bottom-right-radius: 10px;
+   text-align: center;
+   padding: 3px;
+   color: #F6F8D5; /* a cor do texto */
+   font-size: 25px; /* tamanho da fonte */
+   line-height: 20px; /* espaçamento da linha do texto */
+   text-decoration: none; /* retirar decoração do texto */
+   font-family: 'Nunito', sans-serif; /* a fonte escolhida pro menu */
+}
+
+#box a:hover {
+   color: #76ABAE;
+   transition: 700ms;
+   background-color: black;
+}
+
 #box img {
-   max-width: 300px;
+   max-width: 325px;
    border-radius: 50%; /*  adiciona uma borda redonda a  imagem/ */
    border: 3px  solid #98D2C0 ; /*  adiciona uma cor a borda da imagem*/
-   margin-bottom: 32px; /*  distancia da margem  inferior dos outros elementos*/
+   margin-bottom: 25px; /*  distancia da margem  inferior dos outros elementos*/
    box-shadow: 1px 1px 15px rgba(255, 255, 255, 0.5);
 }
 
