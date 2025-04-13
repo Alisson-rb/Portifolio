@@ -45,6 +45,7 @@ header div a:hover {
    /* mudar para cor azul*/
    transition: color 700ms;
    /* e fazer uma transição de cor que dura 700ms*/
+   zoom: 105%;
 }
 
 .links img {
