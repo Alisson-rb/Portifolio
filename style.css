@@ -31,8 +31,6 @@ header div a {
    /* tamanho da fonte */
    line-height: 30px;
    /* espaçamento da linha do texto */
-   margin: 10px;
-   /* espaçamento entre os textos */
    text-decoration: none;
    /* retirar decoração do texto */
    font-family: 'Nunito', sans-serif;
@@ -48,6 +46,34 @@ header div a:hover {
    font-size: 24px;
 }
 
+#links-Footer a{
+   color: #F6F8D5;
+   /* a cor do texto */
+   font-size: 17px;
+   /* tamanho da fonte */
+   line-height: 27px;
+   /* espaçamento da linha do texto */
+   text-decoration: none;
+   /* retirar decoração do texto */
+   font-family: 'Nunito', sans-serif;
+   /* a fonte escolhida pro menu */
+}
+
+#links-Footer {
+   text-align: center;
+   margin: 10px;
+   background-color: #1c2027;
+   padding: 15px;
+}
+
+#links-Footer a:hover {
+   /* seleção do modo quando o mouse passar por cima "hover"*/
+   color: #76ABAE;
+   /* mudar para cor azul*/
+   transition: color 700ms;
+   /* e fazer uma transição de cor que dura 700ms*/
+}
+
 .links img {
    margin-right: 10px;
    width: 22px;
@@ -57,7 +83,8 @@ header div a:hover {
 #box {
    text-align: center;
    /* Alinhamento no meio do body */
-   padding: 32px;
+   padding: 25px;
+   padding-bottom: 0px;
    /* distancia dos   outros elementos  */
    font-family: 'Nunito', sans-serif;
    /* a fonte escolhida pro menu */
