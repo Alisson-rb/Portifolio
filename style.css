@@ -47,11 +47,13 @@ header div a:hover {
 }
 
 #links-Footer a{
+   text-align: center;
+   padding: 5px;
    color: #F6F8D5;
    /* a cor do texto */
    font-size: 17px;
    /* tamanho da fonte */
-   line-height: 27px;
+   line-height: 30px;
    /* espaçamento da linha do texto */
    text-decoration: none;
    /* retirar decoração do texto */
@@ -61,7 +63,7 @@ header div a:hover {
 
 #links-Footer {
    text-align: center;
-   margin: 10px;
+   margin: 0px;
    background-color: #1c2027;
    padding: 15px;
 }
